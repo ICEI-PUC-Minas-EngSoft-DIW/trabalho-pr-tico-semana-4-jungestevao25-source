@@ -10,8 +10,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 - Nome: Estevão Jung
 - Matricula: 910950
-- Proposta de projeto escolhida: 
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Pagina de prestação de serviços: Musicalisação para adultos.
+- Breve descrição sobre seu projeto: Uma pagina onde o usuario pode conhecer e contratar serviços de musicalisação para adultos.  
 
 
 ## Print do(s) wireframe(s) criado

@@ -2,6 +2,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #8a6a00;
@@ -33,4 +34,36 @@ header {
     gap: 30px;
     margin-right: 80px;
 
+}
+
+:root {
+    --divisao: 80%;
+}
+
+.caixas-principais {
+    display: grid;
+    grid-template-columns: var(--divisao) calc(100% - var(--divisao));
+    height: 100vh;
+    margin-top: 130px;
+}
+
+.conteudo-principal {
+    background-color: black;
+}
+
+.conteudo-professores {
+    background-color: rgb(248, 205, 152);
+    padding: 35px;
+    color: black;
+}
+
+.paragrafo-principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 20pt;
+    padding-right: -20%;
+}
+
+.texto-professores {
+    color: black;
 }

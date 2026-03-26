@@ -10,40 +10,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Delius&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class="imagem-logo">
             <img src=".img/Prelúdio-logo.png" alt="Imagem logo" width="150px">
         </div>
         
         <div class="barra-de-pesquisa">
-            <input class="barra-de-pesquisa-config" type="text">
+            <span class="icone-pesquisa" aria-hidden="true">&#128269;</span>
+            <input class="barra-de-pesquisa-config" type="text" placeholder="Pesquisar...">
         </div>
         <div class="titulo">
             <h1>Já Imaginou aprender música?</h1>
         </div>
         <nav class="botoes">
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
     <main class="caixas-principais">
-        <section class="conteudo-principal">
+        <section id="sobre" class="conteudo-principal">
             <div class="imagem-1">
                 <img src=".img/Preludio-logo-grande.jpg" alt="imagem 1" width="500px">
             </div>
             <article>
                 <h3>O que nós somos?</h3>
-                <p>
-                    A rotina adulta tem um jeito peculiar de abafar nossos sons internos. Entre reuniões, prazos, trânsito e responsabilidades inadiáveis, a música que um dia sonhamos tocar – ou aquela vontade latente de entender como as notas funcionam – muitas vezes se torna apenas um ruído de fundo, abafado pelo volume alto das "coisas sérias" da vida.
-                </p>
-                <p>
-                    A história da Prelúdio começa exatamente nesse compasso de espera.
-                    Nasceu da observação de que, para o adulto, o desejo de aprender música não desaparece com a idade; ele apenas fica guardado em uma gaveta empoeirada, trancado pela crença limitante de que "o tempo já passou" ou pelo desconforto de se imaginar em uma sala de aula tradicional, cercado por crianças e métodos rígidos pensados para quem ainda tem a vida toda pela frente.
-                </p>
-                    Nós entendemos que o tempo do adulto é diferente. É precioso, é escasso e, muitas vezes, carregado de tensão.
-                    Por isso, criamos a Prelúdio. Não apenas como uma escola de música, mas como um santuário para a redescoberta. Um espaço desenhado para acolher quem busca na música não uma nova carreira estressante, mas uma válvula de escape, uma terapia para a alma, uma nova forma de expressão e, acima de tudo, prazer.
-                </p>
+                <div class="texto-sobre">
+                    <p>
+                        A rotina adulta tem um jeito peculiar de abafar nossos sons internos. Entre reuniões, prazos, trânsito e responsabilidades inadiáveis, a música que um dia sonhamos tocar – ou aquela vontade latente de entender como as notas funcionam – muitas vezes se torna apenas um ruído de fundo, abafado pelo volume alto das "coisas sérias" da vida.
+                    </p>
+                    <p>
+                        A história da Prelúdio começa exatamente nesse compasso de espera.
+                        Nasceu da observação de que, para o adulto, o desejo de aprender música não desaparece com a idade; ele apenas fica guardado em uma gaveta empoeirada, trancado pela crença limitante de que "o tempo já passou" ou pelo desconforto de se imaginar em uma sala de aula tradicional, cercado por crianças e métodos rígidos pensados para quem ainda tem a vida toda pela frente.
+                    </p>
+                    <p>
+                        Nós entendemos que o tempo do adulto é diferente. É precioso, é escasso e, muitas vezes, carregado de tensão.
+                        Por isso, criamos a Prelúdio. Não apenas como uma escola de música, mas como um santuário para a redescoberta. Um espaço desenhado para acolher quem busca na música não uma nova carreira estressante, mas uma válvula de escape, uma terapia para a alma, uma nova forma de expressão e, acima de tudo, prazer.
+                    </p>
+                </div>
             </article>
             <div class="imagem-2">
                 <img src="https://picsum.photos/300/200" alt="imagem 2">
@@ -59,26 +63,26 @@
         </section>
         <section class="conteudo-professores">
             <div class="imagem-professor">
-                <img src="https://picsum.photos/300/300" alt="professor-1">
+                <img src=".img/Professor-1.png" alt="professor-1" width="300px">
             </div>
             <article>
                 <p class="texto-professores">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis ea, ratione 
-                    laboriosam facere, maiores saepe placeat, ducimus rerum tenetur molestias? Ex rem architecto voluptas illo veniam et, recusandae ipsa.
+                    Professor Lucas transforma o aprendizado musical em uma experiência sofisticada e leve. 
+                    Especialista em adultos, ele une técnica e sensibilidade para você dominar a música com confiança.
                 </p>
             </article>
             <div class="imagem-professor">
-                <img src="https://picsum.photos/300/300" alt="professor-2">
+                <img src=".img/Professor-2.png" alt="professor-2" width="300px">
             </div>
             <article>
                 <p class="texto-professores">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis ea, ratione 
-                    laboriosam facere, maiores saepe placeat, ducimus rerum tenetur molestias? Ex rem architecto voluptas illo veniam et, recusandae ipsa.
+                    Professora Maria é especialista em piano e violino para adultos. 
+                    Sua abordagem única combina técnica rigorosa com sensibilidade emocional, ajudando os alunos a expressar-se livremente através da música.
                 </p>
             </article>
         </section>
     </main>
-    <footer class="rodape">
+    <footer id="contato" class="rodape">
         <p>Siga-nos nas redes sociais</p>
         <nav class="redes-sociais" aria-label="Redes sociais">
             <a class="instagram-logo" href="https://www.instagram.com/preludio_musicalizacao" target="_blank" rel="noopener noreferrer">

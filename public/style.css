@@ -6,6 +6,16 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#sobre,
+#contato,
+#inicio {
+    scroll-margin-top: 120px;
+}
+
 .conteudo-principal {
     padding: 30px;
 }
@@ -52,24 +62,50 @@ header {
 
 .barra-de-pesquisa {
     display: flex;
+    position: relative;
+    align-items: center;
     margin-top: 60px;
 
 }
 
 .barra-de-pesquisa-config {
-    padding: 5px;
+    padding: 5px 10px 5px 32px;
     border-radius: 20px;
     border: none;
 }
 
+.icone-pesquisa {
+    position: absolute;
+    left: 10px;
+    color: #777;
+    font-size: 14px;
+    line-height: 1;
+}
+
 .botoes {
     display: flex;
-    margin-top: 50px;
     padding: 20px;
     gap: 30px;
     margin-left: auto;
     margin-right: 20px;
 
+}
+
+.botoes a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 6px;
+    background-color: #c2a239;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.botoes a:hover {
+    background-color: #aa8c2f;
+    transform: translateY(-1px);
 }
 
 :root {
@@ -95,10 +131,13 @@ header {
     border-radius: 20px;
 }
 h3 {
+    display: flex;
     font-family: "Birthstone", cursive;
     color: #c2a239;
-    font-size: 30pt;
+    font-size: 40pt;
     margin-top: 0;
+    margin-left: 5%;
+
 }
 article p {
     font-family: Arial, Helvetica, sans-serif;
@@ -107,9 +146,24 @@ article p {
     padding-right: -20%;
 }
 
-.texto-professores {
-    color: black;
+.texto-sobre {
+    background-color: rgba(248, 205, 152, 0.37);
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 20px;
 }
+
+.texto-professores {
+    color: #1f1f1f;
+    font-size: 16pt;
+    line-height: 1.6;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.58);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
 
 .rodape {
     position: static;

@@ -16,8 +16,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print do(s) wireframe(s) criado
 
-![imagem wireframe](public/Imagem-wireframe.jpeg)
+![imagem wireframe](public/.img/Imagem-wireframe.jpeg)
 
 ## Print da home-page criada
 
-![Imagem home-page](public/imagem-Site-17-03.png)
+![Imagem home-page](public/.img/imagem-Site-17-03.png)

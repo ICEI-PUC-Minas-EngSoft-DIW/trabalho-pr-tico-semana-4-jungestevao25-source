@@ -23,7 +23,7 @@ img {
 
 header {
     display: flex;
-    position:fixed;
+    position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -32,15 +32,22 @@ header {
     height: 100px;
     padding: 10px 20px;
     align-items: center;
-    justify-content: space-between;
+    gap: 50px;
+}
+
+.titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .titulo h1 {
-    display: flex;
     color: #c2a239;
     font-family: "Birthstone", cursive;
     font-size: 30pt;
     padding: 8px 20px;
+    margin: 0;
+    white-space: nowrap;
 }
 
 .barra-de-pesquisa {
@@ -60,7 +67,8 @@ header {
     margin-top: 50px;
     padding: 20px;
     gap: 30px;
-    margin-right: 80px;
+    margin-left: auto;
+    margin-right: 20px;
 
 }
 
@@ -86,8 +94,13 @@ header {
     color: black;
     border-radius: 20px;
 }
-
-.paragrafo-principal {
+h3 {
+    font-family: "Birthstone", cursive;
+    color: #c2a239;
+    font-size: 30pt;
+    margin-top: 0;
+}
+article p {
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-size: 20pt;
